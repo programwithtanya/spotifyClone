@@ -1,0 +1,389 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    background-color: black;
+    color: white;
+    overflow:hidden;
+
+}
+.main{
+    display:flex;
+    height:100vh;
+    padding:0.5rem;
+}
+.sidebar{
+    background-color: black;
+    width:340px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.75rem;
+
+}
+.main-content{
+    background-color: #121212;
+    flex:1;
+    border-radius: 1rem;
+    overflow: auto; 
+    padding: 0 1.5rem 0 1.5rem;
+}
+.music-content{
+    background-color: black;
+    position: fixed;
+    bottom:0;
+    width:100%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.nav-option{
+    background-color:#121212;
+    border-radius: 1rem;
+    justify-content: center;
+    height:50px;
+    line-height: 2.5rem;
+    padding: 0.5rem 0.75rem;
+    opacity: 0.7;
+}
+.nav-option:hover{
+    opacity:1;
+}
+i{
+    margin-left: 10px;
+    margin-top:10px;
+    font-size: 1.25rem;
+}
+.lib-option img{
+   height: 1.25rem;
+   width: 1.25rem; 
+}
+.lib-option{
+    padding:10px;
+    background-color:#121212;
+    opacity: 0.75;
+}
+.lib-option a {
+    background-color:#121212;
+}
+.lib-option:hover{
+    opacity: 1;
+}
+.library{
+    background-color:#121212;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.5rem;
+    padding: 0.75rem 0.75rem;
+}
+.option{
+    display: flex;
+    background-color: #121212;
+    align-items: center;
+}
+.icons{
+    margin-left: 100px;
+    background-color: #121212;
+    font-size: 1.5rem;
+    opacity: 0.75;
+}
+.icons:hover{
+    opacity: 1;
+}
+.boxes{
+    background-color: #232323;
+    height:7rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0 0.rem 0;
+    padding: 1rem 1.25rem;
+}
+.boxes button:hover{
+    cursor: pointer;
+}
+.box-p1{
+    font-size: 1rem;
+    background-color: #232323;
+    font-weight: 700;
+    margin: 0.5rem;
+}
+.box-p2{
+    font-size: 0.75rem;
+    background-color: #232323;
+    opacity: 0.9;
+    margin: 0.75rem;
+}
+.badge{
+    background-color: white;
+    border:none;
+    border-radius: 100px;
+    color: black;
+    padding: 0.3rem 0.9rem;
+    font-weight: 600;
+    margin:0.75rem;
+    height: 2rem;
+    width:fit-content;
+}
+.boxes2{
+    background-color: #232323;
+    height:7rem;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0 0.rem 0;
+    padding: 1rem 1.25rem;
+    margin-top: 20px;
+}
+.boxes2 button:hover{
+    cursor: pointer;
+}
+.box-p12{
+    font-size: 0.95rem;
+    background-color: #232323;
+    font-weight: 700;
+    margin: 0.2rem;
+}
+.box-p22{
+    font-size: 0.75rem;
+    background-color: #232323;
+    opacity: 0.9;
+    margin: 0.75rem;
+}
+.badge1{
+    background-color: white;
+    border:none;
+    border-radius: 100px;
+    color: black;
+    padding: 0.3rem 0.9rem;
+    font-weight: 600;
+    margin-left: 11px;
+    height: 2rem;
+     width:fit-content;
+}
+.stickynav{
+    position: sticky;
+    top:0.1px;
+    background-color: #121212;
+    display: flex;
+    z-index: 5;
+}
+
+#ar-back{
+   height: 1.5rem;
+   margin:10px
+}
+#ar-back:hover{
+    cursor: pointer;
+}
+#ar-for{
+    height: 1.5rem;
+    margin: 10px;
+    cursor: pointer;
+}
+.badge2{
+    background-color: white;
+    border:none;
+    border-radius: 100px;
+    color: black;
+    padding: 0.3rem 0.9rem;
+    font-weight: 600;
+    position: absolute;
+    right:250px;
+    height: 2rem;
+     width:fit-content;
+     top: 10px;
+     cursor: pointer;
+}
+.badge2:hover{
+    box-shadow: 3px 3px 11px whitesmoke;
+}
+#user{
+    position: absolute;
+    right:10px;
+    top: 10px;
+    cursor: pointer;
+}
+#user:hover{
+    box-shadow: 3px 3px 11px whitesmoke;
+}
+.badge3{
+    position: absolute;
+    right: 90px;
+    background-color: black;
+    border:none;
+    border-radius: 100px;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    height: 2rem;
+    color:white;
+     width:fit-content;
+     top:10px; 
+}
+.badge3:hover{
+    box-shadow: 5px 3px 11px whitesmoke;
+}
+.badge3 i{
+    font-size: 15px;
+    background-color: black;
+    color:white;
+}
+.card{
+    background-color: #232323;
+    width:230px;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+.cards h2{
+    padding:1rem;
+}
+.card-container{
+    cursor: pointer;
+    display: flex;
+}
+.card-container:hover .small-image{
+    opacity:1;
+}
+.card-title{
+    background-color: #232323;
+    font-weight: 600;
+}
+.card-info{
+    background-color: #232323;
+    font-size: 0.5;
+    font-weight: 100;
+}
+.card-img{
+    width: 90%;
+    border-radius: 0.5rem;
+}
+.three-cards{
+    display: flex;
+    align-items: flex-end;
+   flex-wrap: wrap;
+}
+.card-img2{
+    width: 90%;
+    border-radius: 0.5rem;
+}
+.card-img3{
+    width: 90%;
+    border-radius: 0.5rem;
+}
+.cards{
+    margin:10px;
+}
+.trending{
+    padding:10px;
+}
+.two-cards{
+    display: flex;
+    flex-wrap:wrap;
+}
+#twele-card{
+    height:270px;
+}
+#card-eleven{
+    height:270px;
+}
+#card-13{
+    height:270px;
+}
+.featured{
+    padding:10px;
+}
+.footer{
+    height:250px;
+    display: flex;
+    align-items: center;
+}
+.line{
+    width:90%;
+    height: 30%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+.music-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.album{
+    width:25%;
+}
+.player{
+    width:50%;
+}
+.controls{
+    width:25%;
+}
+.player-control-icon{
+    height:1rem;
+    margin:2rem;
+    opacity: 0.75;
+}
+.player-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.75;
+}
+.player-control-icon:hover{
+    opacity: 5;
+}
+.playbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.progress-bar{
+    width:70%;
+}
+.album{
+    display: flex;
+}
+.album1{
+    display:flex;
+    flex-direction: column;
+    font-size: smaller;
+    padding:5px;
+}
+.album-img1{
+   margin-right: 100%;
+}
+ .controls{
+    justify-content: space-between;
+    padding:1rem;
+    display: flex;
+    align-items: baseline;
+} 
+#range{
+    margin:5px;
+    opacity: 0.7;
+}
+#range:hover{
+    opacity: 1;
+}
+#con1{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#con1:hover{
+    opacity: 1;
+}
+#con2{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#con2:hover{
+    opacity: 1;
+}
+#con3{
+    opacity: 0.7;
+    cursor: pointer;
+}
+#con3:hover{
+    opacity: 1;
+}
+#heart:hover{
+    color:red;
+    background-color: red;
+}
